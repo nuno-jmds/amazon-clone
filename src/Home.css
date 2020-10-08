@@ -1,0 +1,19 @@
+.home {
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home__image {
+  width: 100%;
+  object-fit: contain;
+  min-width: 960px;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  z-index: -1;
+  margin-bottom: -200px;
+}
+
+.home__row {
+  display: flex;
+  padding: 0px 10px;
+}
